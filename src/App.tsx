@@ -17,6 +17,17 @@ export default function App() {
               font-weight: normal;
               margin: 0; /* or ‘0 0 1em’ if you’re so inclined */
             }
+            * {
+              box-sizing: border-box;
+              padding: 0;
+              margin: 0;
+            }
+
+            html,
+            body,
+            #root {
+              height: 100%;
+            }
           `}
         />
         <Layout>
