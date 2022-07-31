@@ -7,6 +7,10 @@
 2. vite - fast
 3. fast + fast => so fast
 
+## how to start
+1. bun install
+2. bun run dev
+
 -> if you want to change bun -> yarn
 1. remove file `bun.lockb`
 2. remove folder `node_modules`
