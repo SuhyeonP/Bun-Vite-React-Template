@@ -8,8 +8,9 @@
 3. fast + fast => so fast
 
 ## how to start
-1. bun install
-2. bun run dev
+1. `bun install`
+2. `bun run dev`
+3. you can use on `http://localhost:3000`
 
 -> if you want to change bun -> yarn
 1. remove file `bun.lockb`
