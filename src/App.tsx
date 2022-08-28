@@ -6,6 +6,8 @@ import { ReactNode } from 'react';
 import { BrowserRouter } from 'react-router-dom';
 
 export default function App() {
+  // import env variables
+  console.log(import.meta.env.VITE_TEST);
   return (
     <BrowserRouter>
       <GlobalPortal.Provider>
